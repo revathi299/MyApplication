@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Management Application - Attendance</title>
+  <!-- Add your CSS stylesheets here -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>School Management Application</h1>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <a href="index.html">Home</a>
+      <a href="Student.html">Students</a>
+      <a href="teachers.html">Teachers</a>
+      <a href="courses.html">Courses</a>
+      <a href="attendance.html">Attendance</a>
+      <!-- Add more navigation items as needed -->
+    </ul>
+  </nav>
+
+  <p>Dear Students and Parents,
+
+Welcome to the Attendance Page of Academy, where we emphasize the importance of regular attendance in nurturing a culture of commitment and fostering academic excellence. At XYZ Academy, we believe that each day of learning is a stepping stone 
+towards a brighter future, and your active presence is key to unlocking the doors of success.
+</p>
+
+  <!-- Main Content Area -->
+  <main>
+    <section class="attendance">
+      <h2>Attendance</h2>
+      <form>
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+          <option value="" disabled selected>Select Course</option>
+          <option value="math">Mathematics</option>
+          <option value="science">Science</option>
+          <!-- Add more course options as needed -->
+        </select>
+
+        <h3>Students</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Student ID</th>
+              <th>Name</th>
+              <th>Present</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>John Doe</td>
+              <td><input type="checkbox" name="attendance[]" value="001"></td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>Jane Smith</td>
+              <td><input type="checkbox" name="attendance[]" value="002"></td>
+            </tr>
+            <!-- Add more student rows as needed -->
+          </tbody>
+        </table>
+
+        <button type="submit">Submit Attendance</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Your School. All rights reserved.</p>
+  </footer>
+
+
+</body>
+</html>

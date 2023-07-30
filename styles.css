@@ -1,0 +1,25 @@
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+  }
+
+
+
+img {
+    width: 500px; /* Adjust this value to your desired width */
+    height: 500px; /* Adjust this value to your desired height */
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
